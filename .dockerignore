@@ -1,0 +1,7 @@
+.git
+.gitignore
+sqldev/run.sh
+sqldev/install.sh
+sqldev/start.sh
+sqldev/stop.sh
+sqldev/update.txt
