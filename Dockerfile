@@ -1,4 +1,4 @@
-FROM oracle-client-basiclite:23.4.0.24.05
+FROM oracle-client-basiclite:21.14.0.0.0dbru
 
 LABEL authors="Laeni"
 
