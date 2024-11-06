@@ -1,4 +1,4 @@
-FROM oracle-client-basiclite:21.14.0.0.0dbru
+FROM ccr.ccs.tencentyun.com/laeni/oracle-client-basiclite:21.14.0.0.0dbru
 
 LABEL authors="Laeni"
 
