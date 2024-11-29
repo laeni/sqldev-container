@@ -8,4 +8,4 @@ SQLDEV_FILE=sqldev-free-2.2.78-20241129065720.tar.gz
 rm -rf sqldev
 tar -xf $SQLDEV_FILE
 
-docker build -t ccr.ccs.tencentyun.com/laeni/sqldev/sqldev:2.2.78 -f Dockerfile .
+docker build -t ccr.ccs.tencentyun.com/laeni/sqldev:2.2.78 -f Dockerfile .
