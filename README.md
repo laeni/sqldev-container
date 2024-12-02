@@ -4,7 +4,7 @@
 
    ```shell
    mkdir -p /tmp/config
-   docker run --rm -v /tmp/config:/opt/sqldev/config1 laeni/sqldev:2.2.76 bash -c "cp /opt/sqldev/config/* /opt/sqldev/config1/"
+   docker run --rm -v /tmp/config:/opt/sqldev/config1 laeni/sqldev:2.2.78 bash -c "cp /opt/sqldev/config/* /opt/sqldev/config1/"
    ```
 
 2. 根据实际情况修改配置文件
@@ -20,5 +20,5 @@
      --restart=always \
      -p 9000:9000 \
      -v /tmp/config:/opt/sqldev/config \
-     laeni/sqldev:2.2.76
+     laeni/sqldev:2.2.78
    ```
